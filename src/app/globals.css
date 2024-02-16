@@ -59,3 +59,19 @@ body {
   }
 }
 
+
+/*
+Estilos por aplicar en el borde de un boton wrapper
+*/
+@keyframes color-change-2xb {
+  0% {
+    border-color: #19dcea;
+  }
+  100% {
+    border-color: #b22cff;
+  }
+}
+
+.color-change-2xb {
+  animation: color-change-2xb 2s linear infinite alternate both;
+}

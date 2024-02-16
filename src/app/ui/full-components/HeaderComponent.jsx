@@ -1,10 +1,12 @@
 
 
+
 import { links } from "../../const/navbar";
 import Link from 'next/link'
 
 export default function HeaderComponent() {
-  // console.log(links);
+
+
   
   
   return (
